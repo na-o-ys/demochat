@@ -19,7 +19,7 @@ describe('sanity tests', function(done){
 
 it('test mongo connection' , function(done){
 
-    mongoose.connect(dbRemote, function(err) {
+    mongoose.connect(db_docker, function(err) {
 
         if (err) {
             console.log(err);
